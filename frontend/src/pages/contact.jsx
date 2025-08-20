@@ -2,6 +2,8 @@ import { useTranslation } from "react-i18next";
 import {useState, useRef} from 'react';
 import emailjs from "@emailjs/browser";
 import Sended from "./component/sended";
+//import descargarImg from './assets/img/descargar.png'
+import enviarImg from './assets/img/enviar.png';
 
 export default function Contact() {
     const [enviado, setEnviado] = useState(false);
@@ -89,7 +91,7 @@ export default function Contact() {
             className="inline-flex items-center justify-center gap-2 px-3 py-2 bg-[#00ADB5] rounded transition transform ease-in-out duration-300 hover:scale-105 text-[#EEEEEE] font-semibold uppercase shadow-sm"
           >
             <img
-              src="/img/enviar.png"
+              src={enviarImg}
               alt="Enviar"
               className="w-5 h-5 filter invert"
             />

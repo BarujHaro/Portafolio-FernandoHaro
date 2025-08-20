@@ -1,21 +1,12 @@
-import {BrowserRouter} from "react-router-dom";
 import { AppRoutes } from './AppRoutes.jsx';
 
 import './index.css';
 
 function App() {
-
     return (
-    <BrowserRouter>
-    
-     
-      <AppRoutes />
       
-
-    
-
-    </BrowserRouter>
-    
+      <AppRoutes />
+  
   );
 }
 

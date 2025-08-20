@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import meImg from './assets/img/Baruj.jpg';
 
 function Me(){
     const {t} = useTranslation();
@@ -9,7 +10,7 @@ function Me(){
         <div className="flex flex-col items-center justify-center px-7 py-6 text-center gap-5">
             {/**Imagen mia aqui */}
             <div >
-                {<img src="/img/Baruj.jpg" 
+                {<img src={meImg}
                 alt="Baruj"
                 className="w-[10rem] h-[10rem] md:w-[12rem] md:h-[12rem] rounded-full transition transform ease-in-out duration-300 hover:scale-105 shadow-lg"
                 />}

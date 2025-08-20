@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Skill from "./component/skill";
-
+import mexicoImg from './assets/img/mexico.png';
+import usImg from './assets/img/united-states.png';
 
 export default function Skills() {
     const {t} = useTranslation();
@@ -12,8 +13,8 @@ export default function Skills() {
         <div
           className="flex gap-8 flex-wrap mb-4"
         >
-          <Skill img={"/img/mexico.png"} name={t("Espanol")} />
-          <Skill img={"/img/united-states.png"} name={t("Ingles")} />
+          <Skill img={mexicoImg} name={t("Espanol")} />
+          <Skill img={usImg} name={t("Ingles")} />
 
         </div>
           

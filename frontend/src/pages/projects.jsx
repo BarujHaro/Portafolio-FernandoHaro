@@ -5,6 +5,8 @@ import { Navigation, Pagination, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import prediccImg from './assets/img-pro/Prediccion.png';
+import weatherImg from './assets/img-pro/weatherApp.png';
 
 export default function Projects() {
     const {t} = useTranslation();
@@ -60,7 +62,7 @@ export default function Projects() {
 <Project 
         title={t("Proyecto1_Titulo")} 
         description={t("Proyecto1_des")} 
-        image={"/img-pro/weatherApp.PNG"} 
+        image={weatherImg} 
         demoLink={"https://barujharo.github.io/Weather-app/"} 
         codeLink={"https://github.com/BarujHaro/Weather-app"}
         />
@@ -70,7 +72,7 @@ export default function Projects() {
 <Project 
         title={t("Proyecto2_Titulo")} 
         description={t("Proyecto2_des")} 
-        image={"/img-pro/Prediccion.PNG"} 
+        image={prediccImg} 
         demoLink={"https://proyecto-prediccion1.onrender.com/"} 
         codeLink={"https://github.com/BarujHaro/proyecto-prediccion"}
         />

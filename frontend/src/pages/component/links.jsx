@@ -1,4 +1,5 @@
 import DownloadCVButton from "./DownloadCV";
+import descargarImg from '../assets/img/descargar.png';
 
 export default function Links() {
   return (
@@ -37,7 +38,7 @@ export default function Links() {
         {/* Botón de descarga */}
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#00ADB5] rounded transition transform ease-in-out duration-300 hover:scale-105 text-[#EEEEEE] font-semibold uppercase shadow-sm">
           <img
-            src="/img/descargar.png"
+            src={descargarImg}
             alt="Descargar"
             className="w-5 h-5 filter invert"
           />

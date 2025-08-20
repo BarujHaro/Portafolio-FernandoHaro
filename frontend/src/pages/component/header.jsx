@@ -3,6 +3,8 @@ import { Link as ScrollLink } from 'react-scroll';
 import { Menu, X } from "lucide-react";
 import DownloadCVButton from "./DownloadCV";
 import { useState } from "react";
+import traducirImg from '../assets/img/traducir.png';
+import descargarImg from '../assets/img/descargar.png';
 
 export default function Header() {
 
@@ -89,7 +91,7 @@ export default function Header() {
           className="inline-flex items-center gap-2 px-3 py-2 bg-[#00ADB5] rounded transition transform ease-in-out duration-300 hover:scale-105"
           >
         <img
-            src="/img/descargar.png"
+            src={descargarImg}
             alt="Descargar"
             className="w-5 h-5 filter invert"
         />
@@ -106,7 +108,7 @@ export default function Header() {
           className="inline-flex items-center gap-2 px-3 py-2 bg-[#00ADB5] rounded transition transform ease-in-out duration-300 hover:scale-105"
           >
           <img
-            src="/img/traducir.png"
+            src={traducirImg}
             alt="Traducir"
             className="w-5 h-5 filter invert"
         />
@@ -177,7 +179,7 @@ export default function Header() {
                     <div className="flex gap-4">
                         <div className="inline-flex items-center gap-2 px-3 py-2 bg-[#00ADB5] rounded transition transform ease-in-out duration-300 hover:scale-105">
                             <img
-                                src="/img/descargar.png"
+                                src={descargarImg}
                                 alt="Descargar"
                                 className="w-5 h-5 filter invert"
                             />
@@ -186,7 +188,7 @@ export default function Header() {
 
                         <div className="inline-flex items-center gap-2 px-3 py-2 bg-[#00ADB5] rounded transition transform ease-in-out duration-300 hover:scale-105">
                             <img
-                                src="/img/traducir.png"
+                                src={traducirImg}
                                 alt="Traducir"
                                 className="w-5 h-5 filter invert"
                             />
