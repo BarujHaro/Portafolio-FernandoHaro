@@ -1,0 +1,6 @@
+https://tailwindcss.com/docs/margin
+https://nerdcave.com/tailwind-cheat-sheet
+#22281
+#393E46
+#00ADB5
+#EEEEEE

@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+ /* @apply bg-[#1f1f1f] text-white;*/
+  @apply bg-[#EEEEEE] text-[#222831];
+}
+
+
+.custom-pagination {
+    position: relative;
+    z-index: 10;
+}
+
+.custom-bullet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00ADB5;
+    opacity: 0.5;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-bullet-active {
+    opacity: 1;
+    transform: scale(1.2);
+    background-color: #00838a;
+}
