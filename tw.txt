@@ -4,3 +4,7 @@ https://nerdcave.com/tailwind-cheat-sheet
 #393E46
 #00ADB5
 #EEEEEE
+
+
+npm run build
+npm run deploy
