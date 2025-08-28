@@ -20,6 +20,8 @@ function Me(){
                 <div className="text-[2rem] text-[#00ADB5] font-bold">Fernando Baruj Haro Salazar</div>
                 <div className="">
                     <p>{t("SobreMi")} </p>
+		    <p>{t("SobreMi2")} </p>
+		    <p>{t("SobreMi3")} </p>
                 </div>
             </div>
 
