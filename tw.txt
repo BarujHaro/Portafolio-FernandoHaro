@@ -5,6 +5,6 @@ https://nerdcave.com/tailwind-cheat-sheet
 #00ADB5
 #EEEEEE
 
-
+cd frontend
 npm run build
 npm run deploy
