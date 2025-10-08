@@ -9,7 +9,7 @@ export default function DownloadCVButton(){
   return(
     <a
         href={cvPath}
-        download={`CV_Baruj_${i18n.language}.pdf`}
+        download={`Fernando_Haro_CV_${i18n.language}.pdf`}
         >
         {t("Download_cv")}
     </a>
