@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
- /* @apply bg-[#1f1f1f] text-white;*/
+ 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
   @apply bg-[#EEEEEE] text-[#222831];
 }
 

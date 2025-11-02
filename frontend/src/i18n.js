@@ -39,7 +39,9 @@ i18n
                 Proyecto2_des: "Desarrollada en flask y python, usa un modelo de machine learning para predecir si un negocio entra en riesgo de bancarrota.",
                 Proyecto3_Titulo: "Predicción de accidentes cerebrovasculares",
                 Proyecto3_des: "Desarrollada en fastapi y python, usa un modelo de machine learning para obtener la probabilidad de sufrir accidentes cerebrovasculares.",
-            
+                Proyecto4_Titulo: "SparkUp - Educación y diagnóstico",
+                Proyecto4_des: "Desarrollada con React, Node, Javascript, Python y Mysql, es un servicio web que permite aprender estrategicamente y permite realizar diagnosticos de negocios.",
+                       
             },
         },
         en:{
@@ -72,6 +74,9 @@ i18n
                 Proyecto2_des: "Developed in Flask and python, it uses a machine learning model to predict whether a business is at risk of bankruptcy.",            
                 Proyecto3_Titulo: "Stroke Prediction",
                 Proyecto3_des: "Developed in Fastapi and Python, it uses a machine learning model to obtain the probability of suffering a stroke.",
+                Proyecto4_Titulo: "SparkUp - Education and diagnosis",
+                Proyecto4_des: "Developed with React, Node, Javascript, Python and Mysql, it is a web service that enables strategic learning and allows users to perform business diagnostics.",
+                                   
             },
         }
     }

@@ -9,7 +9,7 @@ export default function Project({ title, description, image, demoLink, codeLink 
         <img
             src={image}
             alt={`${title}`}
-            className="w-[16rem] h-[8rem] md:w-[22rem] md:h-[12rem] rounded-lg justify-center"
+            className="w-[16rem] h-[8rem] md:w-[24rem] md:h-[14rem] rounded-lg justify-center"
         />
 
         <div className="text-lg gap-5">

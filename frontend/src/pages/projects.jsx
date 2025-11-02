@@ -8,6 +8,7 @@ import 'swiper/css/pagination';
 import prediccImg from './assets/img-pro/Prediccion.png';
 import weatherImg from './assets/img-pro/weatherApp.png';
 import strokeImg from './assets/img-pro/Stroke.png';
+import SparkUpImg from './assets/img-pro/SparkUp.png'; 
 
 export default function Projects() {
     const {t} = useTranslation();
@@ -88,6 +89,17 @@ export default function Projects() {
         image={strokeImg} 
         demoLink={"https://brain-stroke-prediction-xfqx.onrender.com/"} 
         codeLink={"https://github.com/BarujHaro/proyecto-prediccion"}
+        />
+          </SwiperSlide>
+
+                  {/**Proyecto 4 */}
+          <SwiperSlide>
+          <Project 
+        title={t("Proyecto4_Titulo")} 
+        description={t("Proyecto4_des")} 
+        image={SparkUpImg} 
+        demoLink={"https://sparkup25.xyz/"} 
+        codeLink={"https://github.com/Alexmex04/sparkup"}
         />
           </SwiperSlide>
 
