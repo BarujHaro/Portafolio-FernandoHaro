@@ -12,10 +12,7 @@ export default function Contact() {
 
      const sendEmail = (e) => {
     e.preventDefault();
- console.log("service:", import.meta.env.VITE_EMAILJS_SERVICE_ID);
-  console.log("service:", import.meta.env.VITE_EMAILJS_TEMPLATE_ID);
-   console.log("service:", import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
-    emailjs
+ emailjs
       .sendForm( 
         import.meta.env.VITE_EMAILJS_SERVICE_ID, 
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID, 
@@ -33,10 +30,7 @@ export default function Contact() {
         },
       );
       e.target.reset();
-       console.log("service:", import.meta.env.VITE_EMAILJS_SERVICE_ID);
-  console.log("service:", import.meta.env.VITE_EMAILJS_TEMPLATE_ID);
-   console.log("service:", import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
-  };
+   };
 
   return (
     <div className="flex flex-col items-center text-center w-full py-4">
