@@ -12,7 +12,9 @@ export default function Contact() {
 
      const sendEmail = (e) => {
     e.preventDefault();
- console.log("Form ref:", form.current);
+ console.log("service:", import.meta.env.VITE_EMAILJS_SERVICE_ID);
+  console.log("service:", import.meta.env.VITE_EMAILJS_TEMPLATE_ID);
+   console.log("service:", import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
     emailjs
       .sendForm( 
         import.meta.env.VITE_EMAILJS_SERVICE_ID, 
@@ -31,6 +33,9 @@ export default function Contact() {
         },
       );
       e.target.reset();
+       console.log("service:", import.meta.env.VITE_EMAILJS_SERVICE_ID);
+  console.log("service:", import.meta.env.VITE_EMAILJS_TEMPLATE_ID);
+   console.log("service:", import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
   };
 
   return (
