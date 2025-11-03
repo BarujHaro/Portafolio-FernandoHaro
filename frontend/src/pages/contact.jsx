@@ -18,14 +18,13 @@ export default function Contact() {
         import.meta.env.VITE_EMAILJS_SERVICE_ID, 
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID, 
         form.current, 
-        {
-        publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
-      })
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
+
       .then(
         () => {
-          console.log('SUCCESS!');
+           
           setEnviado(true);
-          setTimeout(() => setEnviado(false, 3000));
+          setTimeout(() => setEnviado(false), 3000);
         },
         (error) => {
           console.log('FAILED...', error.text);
